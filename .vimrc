@@ -27,6 +27,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }  " Colour theme
 Plug 'sainnhe/everforest'  " Colour theme
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'} " preview markdown files in realtime.
+
 " Plug 'powerline/powerline'
 " Plug 'psf/black', { 'branch': 'stable' }
 " Plug 'neoclide/coc.nvim', {'branch': 'release'} " Code completion. Reuires latest Nodejs
