@@ -170,3 +170,4 @@ export NVM_DIR="$HOME/.nvm"
 
 alias dotconfig='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
+export RIPGREP_CONFIG_PATH="/home/dushan/.ripgreprc"

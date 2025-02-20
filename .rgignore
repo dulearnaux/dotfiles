@@ -1,0 +1,6 @@
+anaconda3/**
+/timeshift/**
+**/.venv/**
+**/.git/**
+**/.idea/**
+
