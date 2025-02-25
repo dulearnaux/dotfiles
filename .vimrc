@@ -43,10 +43,10 @@ Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
 
-" Show line numbers
-set number
-" Show the matching part of the pari [] () {}
-set showmatch
+set number " Show line numbers
+set relativenumber " Make line numbers relative.
+set showmatch " Show the matching part of the pari [] () {}
+
 " Enable copying to system clipboard (for linux). This requires the correct
 " compilation settings when installing vim.
 set clipboard=unnamedplus
