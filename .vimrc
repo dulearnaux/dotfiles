@@ -1,5 +1,4 @@
 
-
 " " Vimspector pre configs
 " let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 
@@ -8,7 +7,7 @@
 "
 " 
 set nocompatible              " required
-filetype off                  " required
+" filetype off                  " required
 
 
 call plug#begin('~/.vim/plugged')
@@ -28,6 +27,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }  " Colour theme
 Plug 'sainnhe/everforest'  " Colour theme
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'} " preview markdown files in realtime.
+Plug 'ycm-core/YouCompleteMe'
+" 'Plug 'jmcantrell/vim-virtualenv'
 
 " Plug 'powerline/powerline'
 " Plug 'psf/black', { 'branch': 'stable' }
@@ -176,7 +177,7 @@ highlight Comment ctermfg=245 guifg=Grey42
 
 
 " "python with virtualenv support
-" py << EOF
+" python3 << EOF
 " import os
 " import sys
 " if 'VIRTUAL_ENV' in os.environ:
